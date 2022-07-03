@@ -321,7 +321,7 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url("./Site/img/cameraman.png") center center / cover no-repeat;
+  background: url("./img/cameraman.png") center center / cover no-repeat;
   margin-bottom: 30px;
 }
 
