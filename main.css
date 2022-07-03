@@ -24,7 +24,7 @@ ul li {
 }
 
 .wrapper-main {
-  background: url("../Project/img/hero.jpg") center top 100px, url("../Project/img/bottom-pic.png") center bottom 400px, #17191C;
+  background: url("../Site/img/hero.jpg") center top 100px, url("../Site/img/bottom-pic.png") center bottom 400px, #17191C;
   background-repeat: no-repeat;
   background-size: contain;
 }
