@@ -24,7 +24,7 @@ ul li {
 }
 
 .wrapper-main {
-  background: url("./img/hero.jpg") center top 100px, url("./img/bottom-pic.png") center bottom 400px, #17191C;
+  background: url("../img/hero.jpg") center top 100px, url("../img/bottom-pic.png") center bottom 400px, #17191C;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -321,7 +321,7 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url('./img/cameraman.png') center center / cover no-repeat;
+  background: url("../img/cameraman.png") center center / cover no-repeat;
   margin-bottom: 30px;
 }
 
@@ -397,17 +397,17 @@ p {
 }
 
 .online__link--icon--telegram {
-  background-image: url("./img/t.png");
+  background-image: url("../img/t.png");
 }
 
 .online__link--icon--vk {
-  background-image: url("./img/vk.png");
+  background-image: url("../img/vk.png");
 }
 
 .online__link--icon--facebook {
-  background-image: url("./img/f.png");
+  background-image: url("../img/f.png");
 }
 
 .online__link--icon--instagram {
-  background-image: url("./img/in.png");
+  background-image: url("../img/in.png");
 }
