@@ -1,0 +1,64 @@
+.online__list {
+  margin-right: 100px;
+}
+
+.online__item {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.online__item:last-child {
+  margin-right: 0;
+}
+
+.online__link {
+  content: "";
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  filter: grayscale(1);
+  position: relative;
+}
+
+.online__link--icon--telegram {
+  background-image: url("../img/css_sprites.png") -10px -10px;
+  filter: grayscale(1);
+  position: absolute;
+}
+
+.online__link--icon--telegram:hover {
+  filter:grayscale(0);
+}
+
+.online__link--icon--vk {
+  background-image: url("../img/css_sprites.png") -66px -10px;
+  filter: grayscale(1);
+  position: absolute;
+}
+
+.online__link--icon--vk:hover {
+  filter:grayscale(0);
+}
+
+.online__link--icon--facebook {
+  background-image: url("../img/css_sprites.png") -122px -10px;
+  filter: grayscale(1);
+  position: absolute;
+}
+
+.online__link--icon--facebook:hover {
+  filter:grayscale(0);
+}
+
+.online__link--icon--instagram {
+  background-image: url("../img/css_sprites.png") -178px -10px;
+  filter: grayscale(1);
+  position: absolute;
+}
+
+.online__link--icon--instagram:hover {
+  filter:grayscale(0);
+}
