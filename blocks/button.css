@@ -1,0 +1,56 @@
+.button__main {
+  display: block;
+  border-radius: 35px;
+  border-width: 2px;
+  padding: 18px 53px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.button--color--white {
+  background: #FFFFFF;
+  color: #FF3D00;
+  border: 2px solid #FF3D00;
+}
+
+.button--color--white:hover{
+  background: #FF3D00;
+  color:#FFFFFF;
+  transition: .5s;
+}
+
+.button--color--ginger {
+  background: #FF3D00;
+  color:#FFFFFF;
+}
+
+.button__main-wrap {  
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+.button--color--grey {
+  background: #8E8E8E;
+  color:#FFFFFF;
+}
+
+.button--color--grey:hover {
+  background: #FF3D00;
+  transition: .5s;
+}
+
+.form__btn {
+  margin-right: 13px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}

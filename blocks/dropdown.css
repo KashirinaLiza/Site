@@ -1,0 +1,48 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__menu {
+  opacity: .8;
+  transition: opacity .4s;
+  cursor: pointer;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: #FFFFFF;
+  color: #1E1F20;
+  font-size: 13px;
+  opacity: 0;
+  border-radius: 5px;
+  padding: 17px 18px;
+  width: 160px;
+  top: 200%;
+  right: 0%;
+  text-align: left;
+}
+
+.dropdown__item--first {
+  font-weight: bold;
+}
+
+.dropdown__item--second {
+  font-weight: 600;
+}
+
+.dropdown__triangle {
+  position: absolute;
+  border: 10px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: #FFFFFF;
+  opacity: 0;
+  left: 70%;
+  top: 100%;
+}
+
+.dropdown:hover .dropdown__triangle {
+  opacity: .8;
+  transition: opacity .4s;
+  cursor: pointer;
+}

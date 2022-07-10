@@ -1,0 +1,29 @@
+.online__list {
+  margin-right: 100px;
+}
+
+.online__item {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.online__item:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  content: "";
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: grey;
+  transition: .5s;
+}
